@@ -1,0 +1,100 @@
+{
+  "name": "2022.satsummit.io",
+  "version": "1.0.0",
+  "description": "A one day of presentations and discussions about satellite imagery and data processing capabilities that brings together the satellite industry and the global development leaders.",
+  "keywords": [
+    "gatsby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satsummit/satsummit.github.io"
+  },
+  "author": {
+    "name": "Development Seed",
+    "url": "https://developmentseed.org/"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/satsummit/satsummit.github.io/issues"
+  },
+  "homepage": "http://satsummit.io/",
+  "engines": {
+    "node": "16.x"
+  },
+  "browserslist": ">0.2%, not dead, not ie 11, not chrome < 51, not safari < 10, not android < 51",
+  "scripts": {
+    "serve": "gatsby develop -p 9000 -H 0.0.0.0",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "lint": "eslint ./src/**/*.{js,ts,jsx,tsx} --no-error-on-unmatched-pattern",
+    "lint:css": "stylelint './src/**/*.{js,ts,jsx,tsx}' ",
+    "test": "echo No tests && exit 0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.16.7",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-inclusive-language": "^2.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^2.6.2",
+    "stream-browserify": "^3.0.0",
+    "stylelint": "^14.8.5",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "surge": "^0.23.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@devseed-ui/button": "^4.1.0",
+    "@devseed-ui/collecticons": "^4.1.0",
+    "@devseed-ui/form": "^4.1.0",
+    "@devseed-ui/theme-provider": "^4.1.0",
+    "@devseed-ui/typography": "^4.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "clipboard": "^2.0.11",
+    "date-fns": "^2.29.1",
+    "gatsby": "^4.15.1",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-google-gtag": "^4.15.0",
+    "gatsby-plugin-image": "^2.15.0",
+    "gatsby-plugin-mailchimp": "^5.2.2",
+    "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-sharp": "^4.15.0",
+    "gatsby-plugin-styled-components": "^5.15.0",
+    "gatsby-plugin-webfonts": "^2.2.2",
+    "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-transformer-remark": "^5.18.0",
+    "gatsby-transformer-sharp": "^4.15.0",
+    "gatsby-transformer-yaml": "^4.15.0",
+    "lodash.get": "^4.4.2",
+    "mapbox-gl": "^2.10.0",
+    "polished": "^4.2.2",
+    "react": "^17.0.1",
+    "react-cool-dimensions": "^2.0.7",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "^5.3.5"
+  },
+  "alias": {
+    "$components": "./src/components",
+    "$styles": "./src/styles",
+    "$utils": "./src/utils"
+  },
+  "overrides": {
+    "gatsby": {
+      "devcert": "1.2.0"
+    }
+  }
+}
